@@ -1,7 +1,7 @@
-import styles from './styles.module.scss';
+import styles from './styles.module.scss'
 
 interface ButtonProps {
-  title: string;
+  title: string
 }
 
 export const Button: React.FC<ButtonProps> = ({ title }) => {
@@ -9,5 +9,5 @@ export const Button: React.FC<ButtonProps> = ({ title }) => {
     <button onClick={() => alert('yo!')} className={styles.btn}>
       {title}
     </button>
-  );
-};
+  )
+}
